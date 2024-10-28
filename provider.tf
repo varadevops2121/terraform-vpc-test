@@ -6,10 +6,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "vara-terraform-remote-state"
+    bucket = "varadaws78s-remote-state"
     key    = "expense-vpc"
     region = "us-east-1"
-    dynamodb_table = "vara-daws78s-locking"
+    dynamodb_table = "varadaws78s-locking"
   }
 }
 
